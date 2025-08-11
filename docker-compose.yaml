@@ -1,0 +1,10 @@
+version: 28.3.2
+services:
+  website: 
+    build: 
+      dockerfile: Dockerfile.txt
+    #  contaidockerner_name: azure_tutorial
+    ports:
+      - '4173:4173'
+    stdin_open: true
+    #ttv: true
