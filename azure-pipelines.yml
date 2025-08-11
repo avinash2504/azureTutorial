@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '1f187ba4-caf2-4f8c-bd85-96200f142b7e'
+  dockerRegistryServiceConnection: '71bd53c8-647c-4600-bef8-a105f501242a'
   imageRepository: 'avinashazuretutorial'
   containerRegistry: 'azurecontainerreistery.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile.txt'
